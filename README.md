@@ -24,6 +24,8 @@ movie-this will list the title, year, IMDB rating, Rotten Tomatoes Rating, count
 do-what-it-says will read a file and take information from that file to initiate a request for 
 	information on a song.
 
+The information output to the screen will also be saved to a (log) file.
+
 To run the program you will need the npm packages of fs (in node), twitter, spotify, and request.  You can install twitter with the command line entry [npm install twitter].  You can install request with the command line entry [npm install request].  You can install spotify with the command line entry [npm install --save node-spotify-api].
 
 I kept my twitter and spotify api keys private to my computer by not having them posted to github with special file management.  To run this program, the user will need to supply their own api keys.
